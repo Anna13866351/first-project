@@ -1,7 +1,96 @@
 <!DOCTYPE html>
-<html>
-  <head>
-  </head>
-  <body>
-  </body>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой сайт</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+            border-radius: 5px;
+        }
+        nav {
+            margin: 20px 0;
+            background-color: #333;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        section {
+            margin: 30px 0;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #f4f4f4;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать на мой сайт</h1>
+        <p>Простая HTML-страница с базовой разметкой</p>
+    </header>
+
+    <nav>
+        <a href="#home">Главная</a>
+        <a href="#about">О нас</a>
+        <a href="#services">Услуги</a>
+        <a href="#contact">Контакты</a>
+    </nav>
+
+    <main>
+        <section id="home">
+            <h2>Главная страница</h2>
+            <p>Это основное содержимое главной страницы. Здесь вы можете разместить важную информацию.</p>
+        </section>
+
+        <section id="about">
+            <h2>О нас</h2>
+            <p>Небольшой раздел с информацией о компании или проекте.</p>
+            <ul>
+                <li>Качество</li>
+                <li>Надежность</li>
+                <li>Профессионализм</li>
+            </ul>
+        </section>
+
+        <section id="services">
+            <h2>Наши услуги</h2>
+            <div>
+                <h3>Веб-разработка</h3>
+                <p>Создание современных веб-сайтов и приложений.</p>
+            </div>
+            <div>
+                <h3>Дизайн</h3>
+                <p>Разработка пользовательских интерфейсов.</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Контакты</h2>
+            <p>Email: example@email.com</p>
+            <p>Телефон: +7 (123) 456-78-90</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Мой сайт. Все права защищены.</p>
+    </footer>
+</body>
 </html>
